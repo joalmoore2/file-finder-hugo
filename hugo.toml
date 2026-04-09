@@ -4,6 +4,6 @@ title = 'File Finder'
 theme = 'file-finder-theme'
 
 [params]
-  algoliaAppId = os.Getenv "ALGOLIA_APP_ID"
-  algoliaSearchKey = os.Getenv "ALGOLIA_SEARCH_KEY"
+  algoliaAppId = "placeholder"
+  algoliaSearchKey = "placeholder"
   

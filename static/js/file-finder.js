@@ -64,7 +64,7 @@ function renderResults(hits) {
         <span class="doc-type">${hit.document_type}</span>
         ${
           hit.file_url
-            ? `<a class="file-btn" href="http://localhost:3000${
+            ? `<a class="file-btn" https://file-finder-sigma.vercel.app${
                 hit.file_url
               }" target="_blank">
               ${hit.file_url.split("/").pop()}

@@ -16,7 +16,7 @@ async function searchDocuments() {
   const selectedType = typeFilter.value;
   const sort = sortOrder.value;
 
-  // Build query — exact phrase takes priority over keyword
+  // Build query — exact phrase takes priority over keywords
   const query = phrase ? `"${phrase}"` : keyword;
 
   // Build filter

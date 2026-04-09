@@ -1,0 +1,125 @@
+{
+  "docs": [
+    {
+      "id": 4,
+      "title": "Food Chart",
+      "excerpt": "Food Chart",
+      "document_type": {
+        "id": 1,
+        "name": "Charts",
+        "updatedAt": "2026-04-08T22:10:43.782Z",
+        "createdAt": "2026-04-08T22:10:43.782Z"
+      },
+      "file": {
+        "id": 4,
+        "alt": "Food Chart",
+        "updatedAt": "2026-04-08T23:54:20.773Z",
+        "createdAt": "2026-04-08T23:54:20.769Z",
+        "url": "/api/media/file/BDFoodCharts.pdf",
+        "thumbnailURL": null,
+        "filename": "BDFoodCharts.pdf",
+        "mimeType": "application/pdf",
+        "filesize": 243725,
+        "width": null,
+        "height": null,
+        "focalX": null,
+        "focalY": null
+      },
+      "updatedAt": "2026-04-08T23:54:36.380Z",
+      "createdAt": "2026-04-08T23:54:36.380Z"
+    },
+    {
+      "id": 3,
+      "title": "Example Excel",
+      "excerpt": "Sample Excel",
+      "document_type": {
+        "id": 2,
+        "name": "Advisory",
+        "updatedAt": "2026-04-08T22:11:10.900Z",
+        "createdAt": "2026-04-08T22:11:10.900Z"
+      },
+      "file": {
+        "id": 3,
+        "alt": "Sample Excel",
+        "updatedAt": "2026-04-08T22:20:37.066Z",
+        "createdAt": "2026-04-08T22:20:37.066Z",
+        "url": "/api/media/file/kapostlikes1.xlsx",
+        "thumbnailURL": null,
+        "filename": "kapostlikes1.xlsx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "filesize": 32619,
+        "width": null,
+        "height": null,
+        "focalX": null,
+        "focalY": null
+      },
+      "updatedAt": "2026-04-08T22:20:39.912Z",
+      "createdAt": "2026-04-08T22:20:39.912Z"
+    },
+    {
+      "id": 2,
+      "title": "Comm Design Notes II",
+      "excerpt": "Word version of school notes",
+      "document_type": {
+        "id": 1,
+        "name": "Charts",
+        "updatedAt": "2026-04-08T22:10:43.782Z",
+        "createdAt": "2026-04-08T22:10:43.782Z"
+      },
+      "file": {
+        "id": 2,
+        "alt": "Comm Design Notes II",
+        "updatedAt": "2026-04-08T22:18:39.528Z",
+        "createdAt": "2026-04-08T22:18:39.528Z",
+        "url": "/api/media/file/commdesignnotes.docx",
+        "thumbnailURL": null,
+        "filename": "commdesignnotes.docx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "filesize": 11005776,
+        "width": null,
+        "height": null,
+        "focalX": null,
+        "focalY": null
+      },
+      "updatedAt": "2026-04-08T22:21:04.535Z",
+      "createdAt": "2026-04-08T22:18:43.538Z"
+    },
+    {
+      "id": 1,
+      "title": "Comm Design Notes",
+      "excerpt": "School documents notes",
+      "document_type": {
+        "id": 3,
+        "name": "FAQ PDF",
+        "updatedAt": "2026-04-08T22:11:29.421Z",
+        "createdAt": "2026-04-08T22:11:29.420Z"
+      },
+      "file": {
+        "id": 1,
+        "alt": "Comm Design Notes",
+        "updatedAt": "2026-04-08T22:17:28.673Z",
+        "createdAt": "2026-04-08T22:17:28.673Z",
+        "url": "/api/media/file/commdesignnotes.pdf",
+        "thumbnailURL": null,
+        "filename": "commdesignnotes.pdf",
+        "mimeType": "application/pdf",
+        "filesize": 4548251,
+        "width": null,
+        "height": null,
+        "focalX": null,
+        "focalY": null
+      },
+      "updatedAt": "2026-04-08T22:21:19.878Z",
+      "createdAt": "2026-04-08T22:17:35.217Z"
+    }
+  ],
+  "hasNextPage": false,
+  "hasPrevPage": false,
+  "limit": 100,
+  "nextPage": null,
+  "page": 1,
+  "pagingCounter": 1,
+  "prevPage": null,
+  "totalDocs": 4,
+  "totalPages": 1
+}

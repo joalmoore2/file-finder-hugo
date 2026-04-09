@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html
+  lang="{{ site.Language.Locale }}"
+  dir="{{ or site.Language.Direction `ltr` }}"
+>
+  <head>
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/css/file-finder.css" />
+  </head>
+  <body>
+    <header>{{ partial "header.html" . }}</header>
+    <main>{{ block "main" . }}{{ end }}</main>
+    <footer>{{ partial "footer.html" . }}</footer>
+    <script src="/js/file-finder.js"></script>
+  </body>
+</html>

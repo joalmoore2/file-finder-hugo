@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html
+  lang="en-us"
+  dir="ltr"
+>
+  <head>
+	<meta name="generator" content="Hugo 0.160.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>File Finder</title>
+
+      <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+    <link rel="stylesheet" href="/css/file-finder.css" />
+  </head>
+  <body>
+    <header><h1>File Finder</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a aria-current="page" class="active" href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    </ul>
+  </nav>
+
+</header>
+    <main>
+<div class="file-finder-wrap">
+  <h1>File Finder</h1>
+  <p class="intro">
+    Use the search field and the "File Type" filter to locate files by title or
+    type.
+  </p>
+
+  <div class="search-controls">
+    <div class="search-field">
+      <span class="search-icon">🔍</span>
+      <input
+        type="text"
+        id="keyword-search"
+        placeholder="Find a file by keyword(s)..."
+      />
+    </div>
+
+    <div class="search-field">
+      <span class="search-icon">🔍</span>
+      <input
+        type="text"
+        id="phrase-search"
+        placeholder="Find a file by exact phrase..."
+      />
+    </div>
+
+    <label>Filter by file type:</label>
+    <select id="type-filter">
+      <option value="">- Any -</option>
+      
+      <option value="FAQ PDF">FAQ PDF</option>
+      
+      <option value="Advisory">Advisory</option>
+      
+      <option value="Charts">Charts</option>
+      
+    </select>
+
+    <label>Sort by:</label>
+    <select id="sort-order">
+      <option value="asc">Document Title Asc</option>
+      <option value="desc">Document Title Desc</option>
+    </select>
+
+    <div class="search-buttons">
+      <button id="search-btn">Search</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </div>
+
+  <div id="results-grid"></div>
+</div>
+</main>
+    <footer><p>Copyright 2026. All rights reserved.</p>
+</footer>
+    <script src="/js/file-finder.js"></script>
+  </body>
+</html>

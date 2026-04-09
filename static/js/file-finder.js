@@ -1,5 +1,5 @@
-const ALGOLIA_APP_ID = window.ALGOLIA_APP_ID;
-const ALGOLIA_SEARCH_KEY = window.ALGOLIA_SEARCH_KEY;
+const ALGOLIA_APP_ID = "ALGOLIA_APP_ID_PLACEHOLDER";
+const ALGOLIA_SEARCH_KEY = "ALGOLIA_SEARCH_KEY_PLACEHOLDER";
 const ALGOLIA_INDEX = "documents";
 
 const keywordInput = document.getElementById("keyword-search");
